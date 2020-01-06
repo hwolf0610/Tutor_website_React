@@ -131,14 +131,14 @@ class Icons extends React.Component {
           <Row>
             <Col md="1">&nbsp;</Col>
             <Col md="2.5">
-              <Card>
+              <Card style={{backgroundColor:'white'}}>
                 <CardHeader>
-                  <h3 className="title">Filter</h3>
+                  <h3 className="title" style={{color:'black'}}>Filter</h3>
                 </CardHeader>
-                <CardBody className="all-icons">
+                <CardBody className="all-icons" >
                   <div>
                     <span style={{ color: 'white' }}>Subjects</span> <br />
-                    <select style={{ fontSize: '20px', width: '100%' }}>
+                    <select style={{ fontSize: '20px', width: '100%',backgroundColor:'gray' }}>
                       <option>select subject</option>
                       {
                         this.state.select_subject.map(item => {
@@ -151,7 +151,7 @@ class Icons extends React.Component {
 
                     </select>&nbsp;<br />
                     <span style={{ color: 'white' }}>Grades</span><br />
-                    <select style={{ fontSize: '20px', width: '100%' }}>
+                    <select style={{ fontSize: '20px', width: '100%' ,backgroundColor:'gray'}}>
                       <option>select grades</option>
                       {
                         this.state.select_subject.map(item => {
@@ -164,7 +164,7 @@ class Icons extends React.Component {
 
                     </select>&nbsp;<br />
                     <span style={{ color: 'white' }}> City</span><br />
-                    <select style={{ fontSize: '20px', width: '100%' }}>
+                    <select style={{ fontSize: '20px', width: '100%',backgroundColor:'gray' }}>
                       <option>select City</option>
                       {
                         this.state.select_subject.map(item => {
@@ -203,7 +203,7 @@ class Icons extends React.Component {
                 </CardHeader>
                 <CardBody className="all-icons">
                   <Row>
-                    <Col sm="12">Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
+                    <Col sm="12" style={{color:'white'}}>Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
                     <Col sm="12">
                       <p><b>Subjects &nbsp;:</b>&nbsp; Physics, Chemistry</p>
                       <p><b>Grade &nbsp;:</b>&nbsp; A Levels</p>
@@ -234,7 +234,7 @@ class Icons extends React.Component {
                 </CardHeader>
                 <CardBody className="all-icons">
                   <Row>
-                    <Col sm="12">Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
+                    <Col sm="12" style={{color:'white'}}>Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
                     <Col sm="12">
                       <p><b>Subjects &nbsp;:</b>&nbsp; Physics, Chemistry</p>
                       <p><b>Grade &nbsp;:</b>&nbsp; A Levels</p>
@@ -265,7 +265,7 @@ class Icons extends React.Component {
                 </CardHeader>
                 <CardBody className="all-icons">
                   <Row>
-                    <Col sm="12">Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
+                    <Col sm="12" style={{color:'white'}}>Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
                     <Col sm="12">
                       <p><b>Subjects &nbsp;:</b>&nbsp; Physics, Chemistry</p>
                       <p><b>Grade &nbsp;:</b>&nbsp; A Levels</p>
@@ -296,7 +296,7 @@ class Icons extends React.Component {
                 </CardHeader>
                 <CardBody className="all-icons">
                   <Row>
-                    <Col sm="12">Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
+                    <Col sm="12" style={{color:'white'}}>Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
                     <Col sm="12">
                       <p><b>Subjects &nbsp;:</b>&nbsp; Physics, Chemistry</p>
                       <p><b>Grade &nbsp;:</b>&nbsp; A Levels</p>
@@ -327,7 +327,7 @@ class Icons extends React.Component {
                 </CardHeader>
                 <CardBody className="all-icons">
                   <Row>
-                    <Col sm="12">Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
+                    <Col sm="12" style={{color:'white'}}>Needs to have 12-15 years of experience in a reputed college/university teaching A levels with a clear level of understanding of Physics and Chemistry.<hr /><br /></Col>
                     <Col sm="12">
                       <p><b>Subjects &nbsp;:</b>&nbsp; Physics, Chemistry</p>
                       <p><b>Grade &nbsp;:</b>&nbsp; A Levels</p>
@@ -338,13 +338,13 @@ class Icons extends React.Component {
                 </CardBody>
               </Card>
 
-              <Card>
+              <Card style={{backgroundColor:'#27293d'}}>
                 <CardHeader>
                   <Row>
                     &nbsp;
                   </Row>
                 </CardHeader>
-                <CardBody className="all-icons">
+                <CardBody className="all-icons" >
                   <Row>
                     <Col sm="12">
                       <TinyPagination
@@ -355,11 +355,11 @@ class Icons extends React.Component {
                         maxBtnNumbers={maxBtnNumbers}
                         preKey='PRE'
                         nextKey='NEXT'
-                        wrapStyle={{ backgroundColor: '#ffffff' }}
+                        wrapStyle={{ backgroundColor: '#27293d' }}
                         wrapClass='page-container'
                         btnsClass='btns-container'
                         counterClass='counter-container'
-                        counterStyle={{ color: 'gray' }}
+                        counterStyle={{ color: 'white' }}
                         spreadClass='spread-container'
                         spreadStyle={{ padding: '0 5px' }}
                       />

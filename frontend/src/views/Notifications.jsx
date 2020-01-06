@@ -262,7 +262,7 @@ class Notifications extends React.Component {
             <span>All Tutors(4178) </span>
             <span style={{ marginLeft: '80%' }}>
               <select style={{ fontSize: '20px' }}>
-                <option>Sort by: TutorScore</option>
+              Sort by: <option> TutorScore</option>
                 {
                   this.state.select_subject.map(item => {
                     return (

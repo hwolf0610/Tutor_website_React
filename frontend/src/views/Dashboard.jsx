@@ -21,6 +21,9 @@ import classNames from "classnames";
 // react plugin used to create charts
 import { Line, Bar } from "react-chartjs-2";
 
+
+import { ViewPager, Frame, Track, View } from 'react-view-pager'
+
 // reactstrap components
 import {
   Button,
@@ -131,7 +134,7 @@ class Dashboard extends React.Component {
 
           <Row >
             <Col xs="12" >
-              <Card className="card-chart" > 
+              <Card className="card-chart" >
                 <CardHeader>
                   <Row>
                     <Col className="text-left" sm="4">&nbsp;</Col>
@@ -162,7 +165,7 @@ class Dashboard extends React.Component {
                     <Col className="text-left" sm="2">&nbsp;</Col>
                   </Row>
 
-                  <hr style={{ fontSize: '20px', backgroundColor: 'white',marginLeft:'150px',marginRight:'150px' }} />
+                  <hr style={{ fontSize: '20px', backgroundColor: 'white', marginLeft: '150px', marginRight: '150px' }} />
                   <br /><br /><br /><br />
 
                   <Row>
@@ -202,8 +205,8 @@ class Dashboard extends React.Component {
                     <Col className="text-left" sm="1">&nbsp;</Col>
                   </Row>
 
-                  <hr style={{ fontSize: '20px', backgroundColor: 'white',marginLeft:'150px',marginRight:'150px' }} />
-                  
+                  <hr style={{ fontSize: '20px', backgroundColor: 'white', marginLeft: '150px', marginRight: '150px' }} />
+
                   <br /><br /><br /><br />
 
                   <Row>
@@ -361,16 +364,41 @@ class Dashboard extends React.Component {
               </Card>
             </Col>
           </Row>
-
+          {/*  .MgBawBEp4Gm2q5 */}
+          {/* <img alt="..." src={require("../assets/img/main/main_8.png")} style={{ width: 80, height: 80, borderRadius: 80 / 2 }} /> */}
           <Row >
             <AwesomeSlider style={{ height: '200px' }}>
               <Row >
                 <Col xs="12" >
                   <Row>
+                  
+
+                    <Col className="text-left" sm="2" xs="1">
+                    </Col>
+                    <Col sm="2" xs="11">
+                      <img alt="..." src={require("../assets/img/main/main_8.png")} style={{   borderRadius: 100 / 2 }} />
+                    </Col>
+                    <Col className="text-left" sm="6" xs="1">
+                      <p>
+                        Studentpark has really helped me a lot  in my <br />
+                        teaching career. I like the no non-sense look and<br />
+                        feel of the website. Everything is simple, wasy to<br />
+                        use and just works!                      </p>
+                      
+                    </Col>
+                    <Col className="text-left" sm="2" xs="1">
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+
+              <Row >
+                <Col xs="12" >
+                  <Row>
                     <Col className="text-left" sm="2" xs="1">
                     </Col>
                     <Col className="text-left" sm="2" xs="11">
-                      <img alt="..." src={require("../assets/img/main/main_8.png")} style={{ width: 100, height: 100, borderRadius: 100 / 2 }} />
+                      <img alt="..." src={require("../assets/img/main/main_8.png")} style={{  borderRadius: 100 / 2 }} />
                     </Col>
                     <Col className="text-left" sm="6" xs="1">
                       <p>
@@ -391,28 +419,7 @@ class Dashboard extends React.Component {
                     <Col className="text-left" sm="2" xs="1">
                     </Col>
                     <Col className="text-left" sm="2" xs="11">
-                      <img alt="..." src={require("../assets/img/main/main_8.png")} style={{ width: 100, height: 100, borderRadius: 100 / 2 }} />
-                    </Col>
-                    <Col className="text-left" sm="6" xs="1">
-                      <p>
-                        Studentpark has really helped me a lot  in my <br />
-                        teaching career. I like the no non-sense look and<br />
-                        feel of the website. Everything is simple, wasy to<br />
-                        use and just works!                      </p>
-                    </Col>
-                    <Col className="text-left" sm="2" xs="1">
-                    </Col>
-                  </Row>
-                </Col>
-              </Row>
-
-              <Row >
-                <Col xs="12" >
-                  <Row>
-                    <Col className="text-left" sm="2" xs="1">
-                    </Col>
-                    <Col className="text-left" sm="2" xs="11">
-                      <img alt="..." src={require("../assets/img/main/main_8.png")} style={{ width: 100, height: 100, borderRadius: 100 / 2 }} />
+                      <img alt="..." src={require("../assets/img/main/main_8.png")} style={{  borderRadius: 100 / 2 }} />
                     </Col>
                     <Col className="text-left" sm="6" xs="1">
                       <p>
